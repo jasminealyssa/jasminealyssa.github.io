@@ -1,7 +1,7 @@
 body {
     margin: 60px auto;
     width: 70%;
-    background-color: Black;
+    background-color: #d5d5d5;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -53,4 +53,22 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+.boxed {
+  border: 1px solid white ;
+}
+
+.mint {
+  background: #98ff98;
+}
+
+.navy {
+  background: #0f243e;
+}
+
+.grey {
+  background: #d5d5d5;
+}
+.white {
+  background: #ffffff;
 }
