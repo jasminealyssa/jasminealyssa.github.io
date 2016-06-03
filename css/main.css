@@ -26,6 +26,11 @@ h1 {
 font-family: JennaSue;
     color: #98ff98;
 }
+h2 {
+    font-size: 2em;
+    font-family: JennaSue;
+    color: #0f243e;
+}
 p {
     font-size: 1.5em;
     line-height: 1.4em;
