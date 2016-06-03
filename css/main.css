@@ -20,9 +20,10 @@ a {
 a:hover {
     text-decoration: underline;
 }
+@font-face { font-family: JennaSue; src: url('JennaSue.TTF'); }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+font-family: JennaSue;
     color: #98ff98;
 }
 p {
