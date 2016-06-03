@@ -31,8 +31,10 @@ p {
     line-height: 1.4em;
     color: #0f243e;
 }
-.verticalLine {
-    border-left: thick solid #ff0000;
+p:after {
+    content:' ';
+    display:block;
+    border:2px solid black;
 }
 footer {
     border-top: 1px solid #d5d5d5;
