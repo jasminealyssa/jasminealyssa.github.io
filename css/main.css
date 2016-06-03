@@ -34,7 +34,7 @@ p {
 p:after {
     content:' ';
     display:block;
-    border:2px solid black;
+    border:1px solid #98ff98;
 }
 footer {
     border-top: 1px solid #d5d5d5;
