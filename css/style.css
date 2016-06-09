@@ -338,9 +338,9 @@ work section
 
 
 /* ==========================================================================
-about section
+bio section
 ========================================================================== */
-#about {
+#bio {
   background: #3B3B3B;
   color: #ffffff;
 }
@@ -386,25 +386,25 @@ about section
 }
 
 /* ==========================================================================
-team section
+about section
 ========================================================================== */
-#team {
+#about {
   text-align: center;
 }
-#team h3 {
+#about h3 {
   color: #00c6d7;
   font-size: 14px;
   font-weight: bold;
 }
-#team .col-md-3 {
+#about .col-md-3 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-#team .team-wrapper {
+#about .team-wrapper {
   overflow: hidden;
   position: relative;
 }
-#team .team-des {
+#about .team-des {
   background-color: rgba(00,00,00,0.6);
   position: absolute;
   color: #ffffff;
@@ -433,18 +433,18 @@ team section
       -ms-flex-direction: column;
           flex-direction: column;
 }
-#team .team-des:hover {
+#about .team-des:hover {
  opacity: 1;
 }
-#team img {
+#about img {
   margin: 0 auto;
 }
 
-#team .social-icon li a {
+#about .social-icon li a {
   color: #fff;
 }
 
-#team .social-icon li a:hover {
+#about .social-icon li a:hover {
   color: #00c6d7;
 }
 
