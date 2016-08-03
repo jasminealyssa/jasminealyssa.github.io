@@ -340,7 +340,55 @@ work section
 /* ==========================================================================
 bio section
 ========================================================================== */
-#bio #why{
+#bio {
+  background: #3B3B3B;
+  color: #ffffff;
+}
+.nav-tabs {
+  margin-top: 20px;
+  border-bottom: 1px solid #606060;
+}
+.nav-tabs > li {
+  float: left;
+  margin-bottom: -1px;
+}
+.nav-tabs > li > a {
+	display: block;
+  	color: #ffffff;
+  	font-size: 16px;
+  	padding: 10px 20px;
+  	border: 0;
+  	border-radius: 0;
+}
+.nav-tabs > li > a:hover {
+  background-color: transparent;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  color: #98ff98;
+  cursor: default;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-bottom-color: transparent;
+}
+.tab-content {
+  padding-top: 20px;
+}
+
+.tab-content a {
+	color: #0CC;
+}
+
+.tab-content a:hover, .tab-content a:link {
+	color: #FF0;
+	text-decoration: none;
+}
+
+/* ==========================================================================
+why section
+========================================================================== */
+#why {
   background: #3B3B3B;
   color: #ffffff;
 }
